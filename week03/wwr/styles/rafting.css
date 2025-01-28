@@ -1,0 +1,79 @@
+:root {
+    --primary-color: #16302B;
+    --secondary-color: #fcffeb;
+    --accent1-color: #b2906c;
+    --accent2-color: #445174;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 250%;
+    color: var(--accent2-color);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.worker img {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    top: 50%;
+    transform: translate(45%, -5%);
+    background-color: var(--accent1-color);
+}
+#mission {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    color: var(--secondary-color);
+    position: absolute;
+    left: 50%;
+    bottom: 25%;
+    transform: translate(-75%, 80%);
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    opacity: 0.9;
+    margin-left: 10px;
+}
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: italic;
+    border-bottom: 1px solid #000;
+}
+a:visited {
+    color: lightblue;
+    text-decoration: none;
+}
+a:link {
+    color: lightblue;
+    text-decoration: none;
+}
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+a:active {
+    color: lightblue;
+}
+body {
+    background-color: var(--secondary-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h2, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--primary-color);
+   
+}

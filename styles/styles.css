@@ -18,6 +18,7 @@ nav a {
 }
 h1 {
     color: var(--main-color);
+    font-family: georgia;
 }
 main img {
     width: 150px;
@@ -58,4 +59,7 @@ footer {
 aside h2 {
 position: relative;
 top: 30px;
+}
+body {
+    font-family: cursive;
 }

@@ -128,7 +128,6 @@ body main p {
     align-items: center;
     text-align: center;
     margin: auto 10px;
-    font-size: ;
 }
 .p2 {
     align-items: center;
@@ -156,7 +155,6 @@ body main p {
     font-family: bona nova sc;
     font-size: large;
     order: 2;
-    margin;
 }
 .social {
     grid-column-start: -1;

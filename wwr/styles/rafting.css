@@ -9,7 +9,7 @@
     height: auto;
     display: block;
 }
-h1 {
+.hero h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 275%;
     color: var(--accent1-color);
@@ -70,19 +70,19 @@ header {
     flex-wrap: nowrap;
 }
 a:visited {
-    color: lightblue;
+    color: var(--accent1-color);
     text-decoration: none;
 }
 a:link {
-    color: lightblue;
+    color: var(--accent1-color);
     text-decoration: none;
 }
 a:hover {
-    color: yellow;
+    color: lightblue;
     text-decoration: underline;
 }
 a:active {
-    color: lightblue;
+    color: var(--accent1-color);
 }
 body {
     background-color: var(--secondary-color);
@@ -183,6 +183,17 @@ body main p {
     text-align: center;
     margin-top: 1rem;
 }
+.chead {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    padding: 10px;
+    padding-bottom: 3rem;
+    border-bottom: solid 1px var(--primary-color);
+    align-items: center;
+}
 .contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -190,6 +201,7 @@ body main p {
     padding-left: 50px;
     border-bottom: solid 2px var(--primary-color);
     text-align: center;
+    align-items: center;
 }
 .contact h3 {
     font-size: 2rem;
@@ -198,6 +210,9 @@ body main p {
 .contact h3, .contact p {
     padding-right: 75px;
     color: var(--primary-color);
+}
+.contact p {
+    text-decoration: underline;
 }
 .map {
     grid-column-start: 2;

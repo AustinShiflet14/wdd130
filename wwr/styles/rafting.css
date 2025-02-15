@@ -287,3 +287,142 @@ button {
 button:hover {
     background-color: var(--accent1-color)
 }
+.indexhero {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 850px;
+}
+.herop {
+    text-align: center;
+    color: var(--secondary-color);
+    z-index: 1;
+    max-width: 90%;
+    align-items: center;
+    margin: 5px auto;
+    padding-bottom: 5rem;
+    font-family: bona nova sc;
+}
+.indexhero img {
+    position: absolute;
+    width: 100%;
+    padding-bottom: 2rem;
+    object-fit: cover;
+    z-index: 0;
+}
+.indexhero h1 {
+    z-index: 1;
+    color: var(--secondary-color);
+    font-style: italic;
+    border-bottom: none;
+    padding-bottom: 6rem;
+}
+.indexhero a {
+    z-index: 1;
+    margin: 30px auto;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    width: 200px;
+    height: 100px;
+    color: var(--secondary-color);
+    background-color: var(--accent2-color);
+    border-radius: 50px;
+    box-shadow: 4px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.indexhero a:hover {
+    background-color: var(--accent1-color);
+    text-decoration: none;
+}
+.indexhero a:active {
+    box-shadow: 0 2px black;
+    transform: translateY(3px);
+}
+.iform1 {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    align-self: flex-start;
+    justify-content: center;
+    justify-self: center;
+    padding-bottom: 25px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: var(--primary-color);
+}
+.iform2 {
+    font-style: italic;
+    font-weight: 700;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    color: var(--primary-color);
+}
+.iform {
+    width: 700px;
+    align-items: center;
+    text-align: center;
+    margin: 5px auto;
+    border: 2px solid #333;
+    color: var(--primary-color);
+}
+.iform legend {
+    font-weight: 700;
+    font-size: 1.75rem;
+    font-style: italic;
+    color: var(--primary-color);
+}
+.iform button {
+    font-style: italic;
+    font-size: large;
+    width: 175px;
+}
+.last {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.last img {
+    width: 100%;
+    height: 75%;
+    margin: 20px auto;
+}
+.last figcaption{
+    text-align: center;
+    font-size: x-large;
+}
+.last1 {
+    text-align: center;
+}
+.last1 h3 {
+    font-size: xxx-large;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+.last1 a {
+    margin: 30px auto;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    width: 300px;
+    height: 100px;
+    color: var(--secondary-color);
+    background-color: var(--accent2-color);
+    border-radius: 50px;
+    box-shadow: 4px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last1 a:hover {
+    background-color: var(--accent1-color);
+    text-decoration: none;
+}
